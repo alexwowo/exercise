@@ -9,7 +9,8 @@ int main()
   minNo=m;
   for(n=m+1;n<6;n++)
   {
-  if(x[minNo]>x[m])
+  if(x[minNo]>x[n])
+  minNo=n;
   temp=x[minNo];x[minNo]=x[m];x[m]=temp;
   }
   }
